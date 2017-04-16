@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_paddy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.istp_1.paddy">
+
+    <Button
+        android:text="return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/button"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="PADDY (धान)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#e45"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="एक धान का क्षेत्र बढ़ते अर्धसैनिक चावल के लिए इस्तेमाल किया गया कृषि योग्य भूमि का बाढ़ वाला पार्सल है। धान की खेती गहरे पानी के चावल की खेती के साथ भ्रमित नहीं होनी चाहिए, जो कम से कम एक महीने के लिए 50 सेमी (20 इंच) से भी अधिक पानी के साथ बाढ़ की स्थिति में उगाया जाता है। आनुवंशिक सबूत बताते हैं कि आज के चीन में यांग्त्ज़ी नदी के दक्षिण में 8,200-13,500 सालों पहले जंगली चावल ओरीजा रूफिपोगोन के एक घर से बने धान के चावल, दोनों इंडिका और जपानीस, वसंत से वसंत। [1] हालांकि, घरेलू इंडिका उपप्रजाति वर्तमान में एक बाद की तारीख में जापानोनिका से अनुकूल एलील्स के उत्थान का एक उत्पाद प्रतीत होता है, ताकि खेती और पालतू बनाने की कई घटनाएं हो सकें। [2] पूर्वी, दक्षिण और दक्षिणपूर्व एशिया में धान के खेतों चावल की खेती की विशिष्ट विशेषता है। क्षेत्रों को ढलानों के रूप में खड़ी पहाड़ियों में बनाया जा सकता है और उदास या घनीभूत सुविधाओं के आस-पास, जैसे कि नदियों या दलदल उन्हें श्रम और सामग्रियों के निर्माण के लिए बहुत अधिक आवश्यकता हो सकती है, और सिंचाई के लिए बड़ी मात्रा में पानी की आवश्यकता होती है। ओलसेन और जल भैंस, झीलों में जीवन के लिए अनुकूलित, महत्वपूर्ण कार्यरत जानवर हैं जो कि धान के खेतों में बड़े पैमाने पर खेती करते थे।
+        A paddy field is a flooded parcel of arable land used for growing semiaquatic rice. Paddy cultivation should not be confused with cultivation of deep water rice, which is grown in flooded conditions with water more than 50 cm (20 in) deep for at least a month. Genetic evidence shows that all forms of paddy rice, both indica and japonica, spring from a domestication of the wild rice Oryza rufipogon that first occurred 8,200–13,500 years ago South of the Yangtze River in present-day China.[1] However, the domesticated indica subspecies currently appears to be a product of the introgression of favorable alleles from japonica at a later date, so that there are possibly several events of cultivation and domestication.[2] Paddy fields are the typical feature of rice farming in east, south and southeast Asia. Fields can be built into steep hillsides as terraces and adjacent to depressed or steeply sloped features such as rivers or marshes. They can require a great deal of labor and materials to create, and need large quantities of water for irrigation. Oxen and water buffalo, adapted for life in wetlands, are important working animals used extensively in paddy field farming."
+        android:id="@+id/textView2_wheat"
+        android:textSize="30dp"
+        android:textColor="#A9A9A9"
+        android:background="#d1d1d2"
+        android:scrollbars="vertical"
+        android:layout_centerVertical="true"
+        android:layout_height="300dp"
+        android:layout_width="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView2_wheat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp">
+
+        <TextView
+            android:text="STOCK :-"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="45dp"
+            android:textColor="#A34"
+            android:id="@+id/textView9"
+            android:layout_weight="0.00" />
+
+        <TextView
+            android:textSize="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv11"
+            android:textAlignment="center"
+            android:layout_weight="0.01" />
+
+    </LinearLayout>
+
+</RelativeLayout>

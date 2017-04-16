@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_wheat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.istp_1.wheat">
+
+    <Button
+        android:text="return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:id="@+id/button_wheat"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="WHEAT (गेहूं)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:textColor="#e45"
+        android:id="@+id/textView1_wheat"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="1 : गेहू को कनक भी कहा जाता है.\n 2 : गेहूं एक घास है.\n 3 : गेहूं एक रबी फसल है जो सर्दी के मौसम में उगाई जाती है.\n 4 : गेहूं की फसल को सर्दियों और गर्मियों की आवश्यकता होती है.\n 5 : गेहू की फसल में कुन नाम का कीड़ा लगता है .\n"
+        android:id="@+id/textView2_wheat"
+        android:textSize="30dp"
+        android:textColor="#A9A9A9"
+        android:background="#d1d1d2"
+        android:scrollbars="vertical"
+        android:layout_centerVertical="true"
+        android:layout_height="300dp"
+        android:layout_width="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView2_wheat"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp">
+
+        <TextView
+            android:text="STOCK :-"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="45dp"
+            android:textColor="#A34"
+            android:id="@+id/textView3_wheat"
+            android:layout_weight="0.00" />
+
+        <TextView
+            android:textSize="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_wheat"
+            android:textAlignment="center"
+            android:layout_weight="0.01" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

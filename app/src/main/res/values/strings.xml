@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="rabi">
+        <item>
+            WHEAT
+        </item>
+
+         <item>
+            MAIZE
+        </item>
+
+         <item>
+            CUMIN
+        </item>
+
+         <item>
+            CORIANDER
+        </item>
+
+         <item>
+            GRAM
+        </item>
+
+         <item>
+            ONION
+        </item>
+
+         <item>
+            MUSTARD
+        </item>
+
+         <item>
+            TOMATO
+        </item>
+
+         <item>
+            FENNEL
+        </item>
+
+         <item>
+            POTATO
+        </item>
+
+         <item>
+            OAT
+        </item>
+
+         <item>
+            FENUGREEK
+        </item>
+    </string-array>
+
+    <string-array name="kharif">
+        <item>
+            PADDY
+        </item>
+
+         <item>
+            GUAR
+        </item>
+
+         <item>
+            JOWAR
+         </item>
+
+         <item>
+            SOYABEAN
+        </item>
+
+         <item>
+            MAIZE
+        </item>
+
+         <item>
+            URID
+        </item>
+
+         <item>
+            BAJRI
+        </item>
+
+         <item>
+            ARHAR
+        </item>
+
+         <item>
+            GROUND-NUT
+        </item>
+
+         <item>
+            FENNEL
+        </item>
+
+         <item>
+            NAGALI
+        </item>
+
+         <item>
+            CASTOR
+        </item>
+    </string-array>
+</resources>

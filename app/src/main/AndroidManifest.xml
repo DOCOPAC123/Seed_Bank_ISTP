@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.istp_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".second" />
+        <activity android:name=".kharif" />
+        <activity android:name=".rabi" />
+        <activity android:name=".paddy" />
+        <activity android:name=".maize" />
+        <activity android:name=".urid" />
+        <activity android:name=".bajri" />
+        <activity android:name=".arhar" />
+        <activity android:name=".ground_nut" />
+        <activity android:name=".guar" />
+        <activity android:name=".jowar" />
+        <activity android:name=".soyabean" />
+        <activity android:name=".fennel" />
+        <activity android:name=".nagali" />
+        <activity android:name=".castor" />
+        <activity android:name=".rabi_hata" />
+        <activity android:name=".wheat"></activity>
+    </application>
+
+</manifest>
